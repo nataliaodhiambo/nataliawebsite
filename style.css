@@ -37,3 +37,30 @@ link:hover{
 h1{
     color: purple;
 }
+
+.top-bar { /* for the top bar across all pages in the website */
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.top-bar a {
+    text-decoration: none; 
+    color: #fff; 
+    margin: 0 10px; 
+}
+
+.top-bar {
+    background-color: #333; /* Set background color for the top bar */
+    color: #fff; /* Set text color for the links */
+    padding: 10px; /* Add padding to create space around the links */
+    text-align: center; /* Align the links to the center */
+}
+
+.top-bar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set text color for the links */
+    margin: 0 10px; /* Add margin to separate the links */
+}
+
