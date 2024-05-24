@@ -13,6 +13,10 @@ body{
     padding: 10px;
 }
 
+body {
+    background-color: #ffffff; /* Set your desired background color */
+}
+
 /*for the hover effect on linked pages*/
 .link{
     color:white;
@@ -31,5 +35,5 @@ link:hover{
     object-fit: cover; 
 }
 h1{
-    color: blue;
+    color: purple;
 }
