@@ -3,64 +3,10 @@ body{
     background-color: #f0f0f0;
 }
 
-/*for arranging photos in rows and columns with the same size*/
 
-.color-bar{
-    background-color: #f44336;
-    display: flex;
-    justify-content: space around;
-    align-items: center;
-    padding: 10px;
-}
-
-body {
-    background-color: #ffffff; /* Set your desired background color */
-}
-
-/*for the hover effect on linked pages*/
-.link{
-    color:white;
-    text-decoration: none;
-}
-
-link:hover{
-    background-color: #555;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.photo {
-    width: 200px; 
-    height: 200px; 
-    object-fit: cover; 
-}
-h1{
-    color: purple;
-}
-
-.top-bar { /* for the top bar across all pages in the website */
-    background-color: #333; 
-    color: #fff; 
-    padding: 10px; 
-    text-align: center; 
-}
-
-.top-bar a {
+  
+  a {
+    color: #8B4513; /* Brown color for hyperlinks */
     text-decoration: none; 
-    color: #fff; 
-    margin: 0 10px; 
-}
-
-.top-bar {
-    background-color: #333; /* Set background color for the top bar */
-    color: #fff; /* Set text color for the links */
-    padding: 10px; /* Add padding to create space around the links */
-    text-align: center; /* Align the links to the center */
-}
-
-.top-bar a {
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* Set text color for the links */
-    margin: 0 10px; /* Add margin to separate the links */
-}
+  }
 
