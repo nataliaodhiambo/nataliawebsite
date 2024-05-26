@@ -1,12 +1,29 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family:  serif, sans-serif;
     background-color: #f0f0f0;
+    color: black;
 }
 
-
-  
   a {
     color: #8B4513; /* Brown color for hyperlinks */
     text-decoration: none; 
   }
+  .top-bar a {
+    text-decoration: none; 
+    color: #fff; 
+    margin: 0 10px; 
+}
+
+.top-bar {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.top-bar a {
+    text-decoration: none; 
+    color: #fff; 
+    margin: 0 10px; 
+}
 
