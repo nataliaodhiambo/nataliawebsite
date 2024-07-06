@@ -1,5 +1,52 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f2f0; /*background colour */
+}
+header{
+    background-color: #e0b090;
+    padding: 20px;
+}
 
-.my class{
-        color: blue;
-        font-size: 20px;
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    color: white;
+}
+#uniqueId
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f5ec; /* warm beige for background */
+        color: #333; /* dark text color */
+    }
+    body{
+        font-family: Arial, sans-serif;
+    }
+    form{
+        max-width: 400px;
+        margin: 0 px;
+    }
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    input, select{
+        width: 100%;
+        padding: 8px;
+        border: 1 px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    input[type="submit"]{
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
     }
