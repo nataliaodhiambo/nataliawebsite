@@ -46,6 +46,23 @@
         h2{
             margin-bottom: 10px;
         }
+        main{
+            display: flex;
+        }
+        .content-wrapper{
+            flex: 3;
+            padding: 20px;
+        }
+        .sidebar{
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .sidebar a img{
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -65,7 +82,7 @@
 
     <!-- this is the section with the main content-->
     <main>
-        <section class = "intro">
+        <section class = "content-wrapper">
             <h2 class = "intro-heading">Your beauty oasis awaits</h2>
             <p>At our salon, we are dedicated to providing you with quality and painless services. <br>
                 From haircuts and styling to manicures and pedicures, our talented team of stylists are here to help you look and feel your best!</p><br>
@@ -73,6 +90,13 @@
             <p>We offer a wide range of services to cater to your individual needs. <br>
                 Whether you're looking for your new hairstyle, relaxing massage or a facial, we have you covered. <br>
                  Visit our services page to explore all the options available.</p> <br>
+        </section>
+        <section class="sidebar">
+            <h2>Contact Us</h2>
+            <p>Natalia's Salon<br>
+                198 Malaba Road<br>
+                Nairobi<br>
+                +254 849 3928420<br>
         </section>
     </main>
 </body>
