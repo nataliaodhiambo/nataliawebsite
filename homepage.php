@@ -71,16 +71,9 @@
             margin-bottom: 20px;
         }
     </style>
-</head>
-<body>
-    <div class="top-bar">
-        <a href="homepage.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="team.html">Our Stylists</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="appointments.html">Book an Appointment</a>
-        <a href="feedback.html">Feedback Form</a>
-    </div>
+    </head>
+    <body>
+<?php include_once("templates/nav.php");?>
 
     <header>
     <h1>Welcome to Natalia's salon!</h1>
@@ -106,5 +99,6 @@
     </main>
 </body>
 </div>
+<?php include_once("templates/footer.php");?>
 </html>
 

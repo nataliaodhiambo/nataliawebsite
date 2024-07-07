@@ -47,16 +47,9 @@
             margin-bottom: 10px;
         }
     </style>
-</head>
-<body>
-    <div class="top-bar">
-        <a href="homepage.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="team.html">Our Stylists</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="appointments.html">Book an Appointment</a>
-        <a href="feedback.html">Feedback Form</a>
-    </div>
+    </head>
+    <body>
+<?php include_once("templates/nav.php");?>
     
     <h1>Appointment Form</h1>
 
@@ -91,6 +84,6 @@
 
         <input type="submit" value="Submit">
     </form>
-    
+    <?php include_once("templates/footer.php");?>
 </body>
 </html>

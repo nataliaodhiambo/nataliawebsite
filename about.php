@@ -36,17 +36,9 @@
             line-height: 1.5;
         }
     </style>
-</head>
-<body>
-        <div class="top-bar">
-            <a href="homepage.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="team.html">Our Stylists</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="appointments.html">Book an Appointment</a>
-            <a href="feedback.html">Feedback Form</a>
-        </div>
-       
+    </head>
+    <body>
+<php? include_once("templates/nav.php");?>     
         <main>
             <section class="hero">
                 <h2>Welcome to Natalia's Salon</h2> <p>We are dedicated to providing exceptional salon services and creating a welcoming environment for our clients.</p>
@@ -81,14 +73,7 @@
                 <blockquote>"I highly recommend Natalia's Salon! They transformed my hair and made me feel confident for my big event." - John M.</blockquote>
             </section>
         </main>
-   
-        <footer>
-            <p>&copy; <span id="copyright-year"></span> Natalia's Salon. All rights reserved. <br>
-                Nairobi Kenya.</p>
-            <script>
-                document.getElementById("copyright-year").innerHTML=new Date(). getFullYear();
-            </script>
-        </footer>
     </body>  
 </div>
+<?php include_once("templates/footer.php");?>
 </html>
