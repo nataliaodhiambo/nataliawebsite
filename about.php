@@ -38,7 +38,7 @@
     </style>
     </head>
     <body>
-<php? include_once("templates/nav.php");?>     
+<?php include_once("templates/nav.php");?>   
         <main>
             <section class="hero">
                 <h2>Welcome to Natalia's Salon</h2> <p>We are dedicated to providing exceptional salon services and creating a welcoming environment for our clients.</p>
