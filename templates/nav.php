@@ -3,5 +3,4 @@
         <a href="about.php">About Us</a>
         <a href="gallery.php">Gallery</a>
         <a href="appointments.php">Book an Appointment</a>
-        <a href="feedback.php">Feedback Form</a>
     </div>
