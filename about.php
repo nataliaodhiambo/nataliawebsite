@@ -74,10 +74,10 @@
                     <li>Passion: We are passionate about the beauty industry and helping you achieve your desired look.</li>
                 </ul>
             </section>
-            <section>
+
                 <h2>What Our Clients Say</h2>
-                <blockquote>"Natalia's Salon is my go-to place for a relaxing and pampering experience. The stylists are incredibly talented and always listen to what I want." - Sarah K.</blockquote>
-                <blockquote>"I highly recommend Natalia's Salon! They transformed my hair and made me feel confident for my big event." - John M.</blockquote>
+                <p>"Natalia's Salon is my go-to place for a relaxing and pampering experience. The stylists are incredibly talented and always listen to what I want." - Sarah K.</p>
+                <p>"I highly recommend Natalia's Salon! They transformed my hair and made me feel confident for my big event." - John M.</p>
             </section>
         </main>
     </body>  
