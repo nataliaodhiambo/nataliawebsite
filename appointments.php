@@ -8,24 +8,29 @@
     <style>
         /*css styling for the form*/
         form{
-            max-width: 400px;
-            margin: 20px auto;
-            border: 1 px solid #ddd;
-            border-radius: 4px;
-            background-color: #fff;
-            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+            max-width: 1000%;
+            margin: 0px;
         }
         label{
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
             font-weight: bold;
         }
+        input,select{
+            width: 100%;
+            padding: 8px; 
+            border: 1px solid #a26d6d;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
 
         #uniqueId
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f5ec; /* warm beige for background */
-            color: #333; /* dark text color */
+            background-color: #f9f5ec;
+            color: #333;
         }
         .top-bar{
             text-align: center;
@@ -50,12 +55,14 @@
     </head>
     <body>
 <?php include_once("templates/nav.php");?>
-    
+   
     <h1>Appointment Form</h1>
+
 
     <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
+
 
         <label for="service">Service:</label>
         <select id = "service" name="service" required>
@@ -64,6 +71,7 @@
             <option value="manicure">Manicure</option>
             <option value="braiding-children">Braiding (Children)
 
+
             </option>
             <option value="braiding-adult">Braiding(Adult)</option>
             <option value="haircut-child">Haircut(Child)</option>
@@ -71,8 +79,10 @@
         </option>
         </select>
 
+
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required>
+
 
         <label for="time">Appointment Time:</label>
         <select id="time" name = "time" required>
@@ -80,7 +90,8 @@
             <option value="early-morning">Early Morning</option>
             <option value="mid-morning">Mid-Morning</option>
             <option value="afternoon">Afternoon</option>
-        
+       
+
 
         <input type="submit" value="Submit">
     </form>
