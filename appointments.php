@@ -83,6 +83,9 @@
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required>
 
+        <label for="email address">Email address:</label>
+        <input type="email" id="email address" name="email address" required>
+
 
         <label for="time">Appointment Time:</label>
         <select id="time" name = "time" required>
