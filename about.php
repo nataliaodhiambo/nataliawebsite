@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <div id="uniqueId">
 <head>
@@ -34,6 +33,14 @@
         }
         p{
             line-height: 1.5;
+        }
+
+        aside{
+            width: 40%;
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin-left: 20px;
+            order: 2;
         }
     </style>
     </head>
